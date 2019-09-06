@@ -1,0 +1,53 @@
+package exercises;
+
+/**
+ * 
+ * @author Jamal
+ *
+ */
+public class ContactDetails {
+	private String firstName;
+	private String lastName;
+	private Relationship relationship;
+	private String companyName;
+
+	public ContactDetails(String firstName, String lastName, Relationship relationship, String companyName) {
+		this.firstName = firstName;
+		this.lastName = lastName;
+		this.relationship = relationship;
+		this.companyName = companyName;
+	}
+
+	public String getFirstName() {
+		return firstName;
+	}
+
+	public void setFirstName(String firstName) {
+		this.firstName = firstName;
+	}
+
+	public String getLastName() {
+		return lastName;
+	}
+
+	public void setLastName(String lastName) {
+		this.lastName = lastName;
+	}
+
+	public Relationship getRelationship() {
+		return relationship;
+	}
+
+	public void setRelationship(Relationship relationship) {
+		this.relationship = relationship;
+	}
+
+	public String getCompanyName() {
+		return companyName;
+	}
+
+	public void setCompanyName(String companyName) {
+		this.companyName = companyName;
+	}
+
+}

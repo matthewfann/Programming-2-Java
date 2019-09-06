@@ -1,0 +1,52 @@
+package exercises;
+
+public class NitFluxTest 
+{
+	public static void main(String[] args) 
+	{
+		NitFluxAccount account1 = new NitFluxAccount();
+		NitFluxAccount account2 = new NitFluxAccount();
+		NitFluxAccount account3 = new NitFluxAccount();
+		
+		BankAccount bankaccount1 = new BankAccount();
+		BankAccount bankaccount2 = new BankAccount();
+		BankAccount bankaccount3 = new BankAccount();
+		
+		account1.email = "person1@example.com";
+		account1.bill_per_month = 7.99F;
+		account1.length_of_subscription = 24;
+		
+		bankaccount1.name = "Cheema";
+		bankaccount1.accountcode = "123456789";
+		
+		account1.bankinfo = bankaccount1;
+		
+		float result1 = account1.computeCustomerPay(account1.length_of_subscription,account1.bill_per_month);
+		System.out.println("The result for " + account1.bankinfo.name + " is: " + result1);
+		
+		account2.email = "person2@example.com";
+		account2.length_of_subscription = 12;
+		account2.bill_per_month = 4.99F;
+		
+		bankaccount2.name = "Steffan";
+		bankaccount2.accountcode = "987654321";
+		
+		account2.bankinfo = bankaccount2;
+		
+		float result2 = account1.computeCustomerPay(account2.length_of_subscription,account2.bill_per_month);
+		System.out.println("The result for " + account2.bankinfo.name + " is: " + result2);
+		
+		account3.email = "person3@example.com";
+		account3.length_of_subscription = 7;
+		account3.bill_per_month = 12.99F;
+		
+		bankaccount3.name = "Koz";
+		bankaccount3.accountcode = "963852741";
+		
+		account3.bankinfo = bankaccount3;
+		
+		float result3 = account1.computeCustomerPay(account3.length_of_subscription,account3.bill_per_month);
+		System.out.println("The result for " + account3.bankinfo.name + " is: " + result3);
+
+	}
+}

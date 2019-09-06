@@ -1,0 +1,21 @@
+package exercises;
+
+/**
+ * 
+ * @author Jamal
+ *
+ */
+public class ContactDetails {
+	private String firstName;
+	private String lastName;
+	private String relationship;
+	private String companyName;
+
+	public ContactDetails(String firstName, String lastName, String relationship, String companyName) {
+		this.firstName = firstName;
+		this.lastName = lastName;
+		this.relationship = relationship;
+		this.companyName = companyName;
+	}
+
+}

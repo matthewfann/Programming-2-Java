@@ -1,0 +1,7 @@
+1519508507983	Rename type 'Customer'
+1519508536130	Rename type 'CollectionInput'
+1519509016399	Rename type 'Player'
+1519509048384	Rename type 'InputPlayer'
+1519509093876	Rename type 'InputPlayerAndCustomer'
+1519510116188	Rename local variable 'line'
+1519510822822	Move compilation unit

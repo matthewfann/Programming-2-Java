@@ -1,0 +1,27 @@
+package exercises;
+import java.util.*;
+
+public class Array
+{
+	public static void main(String[] args)
+	{
+		Scanner key = new Scanner(System.in);
+		
+		int array[] = new int[10];
+		
+		for(int counter = 0; counter < array.length; counter++)
+		{
+			System.out.println("Enter number " + (counter + 1));
+			array[counter] = key.nextInt();
+		}
+		
+		System.out.println("Reverse");
+		
+		for(int counter = 9; counter >= 0; counter--)
+		{
+			System.out.println(array[counter]);
+		}
+
+		key.close();
+	}
+}

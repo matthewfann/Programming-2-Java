@@ -1,0 +1,30 @@
+package exercises;
+
+/**
+ * 
+ * @author Jamal
+ *
+ */
+public class Sphere {
+	private int diameter;
+	
+	public Sphere(int diameter) {
+		this.diameter = diameter;
+	}
+
+	public int getDiameter() {
+		return diameter;
+	}
+
+	public void setDiameter(int diameter) {
+		this.diameter = diameter;
+	}
+	
+	public double computeVolume() {
+		return ((double)(4/3))*Math.PI*Math.pow(getDiameter(), 3);
+	}
+	
+	public double computeArea() {
+		return 4*Math.PI*Math.pow(getDiameter(), 2);
+	}
+}

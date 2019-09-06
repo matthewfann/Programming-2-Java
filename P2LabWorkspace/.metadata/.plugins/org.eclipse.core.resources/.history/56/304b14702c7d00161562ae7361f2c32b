@@ -1,0 +1,38 @@
+package examples;
+
+/**
+ * This class demonstrates an abstract shape class.
+ * @author Kjohnson & Jamal
+ */
+
+abstract public class Shape 
+{
+	protected double area;
+	protected double circumference;
+	protected String name;
+	
+	/**
+	 * Constructor: Sets up the Shape with the specified name. 
+	 * @param name
+	 */
+	public Shape(String name){
+		this.name = name;
+	}
+	
+	/**
+	 * An abstract method to define a method for area calculation.
+	 */
+	public abstract double calculateArea();
+	
+	/**
+	 * An abstract method to define a method for circumference calculation.
+	 */
+	public abstract double calculateCircumference();
+	
+	/**
+	 * String representation of shape.
+	 */
+	public String toString(){
+		return "This object demonstrates a shape.";
+	}
+}

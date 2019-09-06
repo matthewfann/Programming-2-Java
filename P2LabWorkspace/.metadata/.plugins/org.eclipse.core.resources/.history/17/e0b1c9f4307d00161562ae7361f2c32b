@@ -1,0 +1,49 @@
+package examples;
+
+/**
+ * This class represents a square, which is a rectangle. Used to demonstrate inheritance and polymorphism.
+ * @author Kjohnson & Jamal
+ */
+public class Square extends Rectangle {
+	private int side;
+
+	/**
+	 * Constructor: Sets up the Square with the specified side.
+	 * @param side
+	 */
+	public Square(int side){
+		super(side,side);
+		this.name = "Square";
+		this.setSide(side);
+	}
+	
+	/**
+	 * side accessor.
+	 * @return side
+	 */
+	public int getSide() {
+		return side;
+	}
+
+	/**
+	 * side mutator.
+	 * @param side
+	 */
+	public void setSide(int side) {
+		this.side = side;
+	}
+	
+	/**
+	 * String representation of a square.
+	 */
+	public String toString(){
+		String output = "";
+		output += "----------------------------------------------\n";
+		output += "A " + name +"\n";
+		output += "\tside = " + side +"\n";
+		output += "\tArea = " + String.format("%.2f", area) +"\n";
+		output += "\tCircumference = " + String.format("%.2f",circumference) +"\n";
+		output += "----------------------------------------------\n";
+		return output;
+	}
+}

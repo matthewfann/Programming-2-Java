@@ -1,0 +1,87 @@
+package examples;
+
+/**
+ * This class represents a rectangle, which is a shape. Used to demonstrate inheritance and polymorphism.
+ * @author Kjohnson & Jamal
+ */
+public class Rectangle extends Shape
+{
+
+	protected int width;
+	protected int height;
+
+	/**
+	 * Constructor: Sets up the Rectangle with the specified width and length. 
+	 * @param width
+	 * @param height
+	 */
+	public Rectangle(int width, int height)
+	{
+		super("Rectangle");
+		this.setWidth(width);
+		this.setHeight(height);
+	}
+	
+	/**
+	 * width accessor.
+	 * @return width
+	 */
+	public int getWidth() {
+		return width;
+	}
+
+	/**
+	 * width mutator.
+	 * @param width
+	 */
+	public void setWidth(int width) {
+		this.width = width;
+	}
+
+	/**
+	 * height accessor.
+	 * @return height
+	 */
+	public int getHeight() {
+		return height;
+	}
+
+	/**
+	 * height mutator.
+	 * @param height
+	 */
+	public void setHeight(int height) {
+		this.height = height;
+	}
+	
+	/**
+	 * Overridden method to calculate and return the area of rectangle.
+	 */
+	public double calculateArea()
+	{
+		return width*height;
+	}
+	
+	/**
+	 * Overridden method to calculate and return the circumference of rectangle.
+	 */
+	public double calculateCircumference(){
+		return 2*(width+height);
+	}
+	
+	/**
+	 * String representation of a rectangle.
+	 */
+	public String toString(){
+		String output = "";
+		output += "----------------------------------------------\n";
+		output += "A " + name +"\n";
+		output += "\tWidth = " + width +"\n";
+		output += "\tHeight =" + height +"\n";
+		output += "\tArea = " + String.format("%.2f", area) +"\n";
+		output += "\tCircumference = " + String.format("%.2f",circumference) +"\n";
+		output += "----------------------------------------------\n";
+		return output;
+	}
+
+}

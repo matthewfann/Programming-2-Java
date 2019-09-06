@@ -1,0 +1,67 @@
+package examples;
+
+/**
+ * This class represents a circle, which is a shape. Used to demonstrate inheritance and polymorphism.
+ * @author Kjohnson & Jamal
+ */
+public class Circle  extends Shape
+{
+
+	private int radius;
+	
+	
+	/**
+	 * Constructor: Sets up the Circle with the specified radius. 
+	 * @param radius
+	 */
+	public Circle(int radius)
+	{
+		super("circle");
+		this.setRadius(radius);
+	}
+	
+	/**
+	 * radius accessor.
+	 * @return radius
+	 */
+	public int getRadius() {
+		return radius;
+	}
+	
+	/**
+	 * radius mutator.
+	 * @param radius
+	 */
+	public void setRadius(int radius) {
+		this.radius = radius;
+	}
+	
+	/**
+	 * Overridden method to calculate and return the area of circle.
+	 */
+	public double calculateArea()
+	{
+		return Math.PI*radius*radius;
+	}
+	
+	/**
+	 * Overridden method to calculate and return the circumference of circle.
+	 */
+	public double calculateCircumference(){
+		return 2*Math.PI*radius;
+	}
+	
+	/**
+	 * String representation of Circle
+	 */
+	public String toString(){
+		String output = "";
+		output += "----------------------------------------------\n";
+		output += "A "+ name +"\n";
+		output += "\tRadious = " + radius +"\n";
+		output += "\tArea = " + String.format("%.2f", area) +"\n";
+		output += "\tCircumference = " + String.format("%.2f",circumference) +"\n";
+		output += "----------------------------------------------\n";
+		return output;
+	}
+}

@@ -1,0 +1,22 @@
+package exercises;
+
+/**
+ * 
+ * @author Jamal
+ *
+ */
+public class FlightTest {
+
+	public static void main(String[] args) {
+		Flight[] flights = new Flight[4];
+		
+		flights[0] = new Flight("RynoAir", 5656, "Auckland", "QueensTownn");
+		flights[1] = new Flight("SimpleAir", 7895, "Melbourne", "Sydney");
+		flights[2] = new Flight("Jet", 1234, "Wellington", "KualaLumpur");
+		flights[3] = new Flight("WorldAir", 4562, "Paris", "Vienna");
+
+		
+		
+	}
+
+}

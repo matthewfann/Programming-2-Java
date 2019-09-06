@@ -1,0 +1,17 @@
+package examples;
+
+public class Philosopher implements Speaker{
+	public void speak(){
+		
+	}
+
+	public void announce(String str){
+		
+	}
+	public static void main(String[] args) {
+		Speaker  guest;
+		guest = new Philosopher();
+		guest.speak();
+	}
+
+}

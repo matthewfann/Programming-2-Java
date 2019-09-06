@@ -1,0 +1,15 @@
+package exercises;
+
+/**
+ * 
+ * @author Jamal
+ *
+ */
+public class FlightTest {
+
+	public static void main(String[] args) {
+		
+		
+	}
+
+}

@@ -1,0 +1,20 @@
+package exercises;
+
+public class Kennel {
+
+	public static void main(String[] args) {
+		Dog dog1 = new Dog("Charlie", 2);
+		Dog dog2 = new Dog("Tody", 5);
+		Dog dog3 = new Dog("Oscar", 3);
+		Dog dog4 = new Dog("Max", 6);
+
+		dog4.setAge(4);
+		
+		System.out.println(dog1);
+		System.out.println(dog2);
+		System.out.println(dog3);
+		System.out.println(dog4);
+
+	}
+
+}

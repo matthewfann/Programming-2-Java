@@ -1,0 +1,13 @@
+package exercises;
+
+/**
+ * 
+ * @author Jamal
+ *
+ */
+public class ContactDetails {
+	private String firstName;
+	private String lastName;
+	private String relationship;
+	
+}

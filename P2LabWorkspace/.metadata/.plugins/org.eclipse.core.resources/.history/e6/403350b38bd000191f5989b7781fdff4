@@ -1,0 +1,43 @@
+package exercises;
+
+public class NumberArray
+{
+	static public int countNumber(int numbers[], int value)
+	{
+		int count = 0;
+		
+		for (int counter = 0; counter < numbers.length; counter++)
+		{
+			if(numbers[counter] == value)
+			{
+				count++;
+			}
+		}
+		return count;
+	}
+	
+	/*static public int countNumber(int number_array[], int key_number)
+	{
+		int repeat_counter = 0;
+		
+		for(int n:number_array)
+		{
+			if(n == key_number)
+			{
+				repeat_counter++;
+			}
+		}
+		
+		return repeat_counter;
+	}*/
+
+	public static void main(String[] args)
+	{
+		int number_array[] = new int[] {5, 4, 5, 4, 7, 5, 5, 9, 9};
+		
+		int key_number = 5;
+		
+		System.out.println(countNumber(number_array, key_number));
+	}
+
+}

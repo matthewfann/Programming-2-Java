@@ -1,0 +1,17 @@
+package examples;
+
+/**
+ * Source: Java Foundations (Lewis et al.)
+ * This class demonstrates the use of an inheritance and polymorphism.
+ * @author Kjohnson & Jamal
+ */
+public class ShapeApp 
+{
+	public static void main(String[] args) 
+	{
+		GroupOfShapes shapes = new GroupOfShapes();
+		shapes.computeAreas();
+		shapes.computeCirumferences();
+		shapes.printShapeInfo();
+	}
+}

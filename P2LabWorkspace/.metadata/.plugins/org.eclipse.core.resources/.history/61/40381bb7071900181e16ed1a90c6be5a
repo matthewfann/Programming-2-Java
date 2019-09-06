@@ -1,0 +1,17 @@
+package exercises;
+
+/**
+ * 
+ * @author Jamal
+ *
+ */
+public class FlightTest {
+
+	public static void main(String[] args) {
+		Flight[] flights = new Flight[4];
+		
+		flights[0] = new Flight("RynoAir", "5656", "Auckland", "QueensTownn");
+		
+	}
+
+}

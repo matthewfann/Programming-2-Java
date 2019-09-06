@@ -1,0 +1,25 @@
+package lectureCode;
+
+import java.util.LinkedList;
+import java.util.Queue;
+
+public class QueueExample {
+	public static void main(String[] args) {
+		Queue<Integer> line = new LinkedList<Integer>();
+		line.add(1);
+		line.add(9);
+		line.add(13);
+		line.remove();
+		line.remove();
+	}
+	
+	Queue<Passenger> line = new LinkedList<Passenger>();
+	//passengers arrive and form a queue
+	line.add(new Passenger("Carl"));
+	line.add(new Passenger("Darlene"));
+	line.add(new Passenger("Bob"));
+	line.add(new Passenger("Alice"));
+	//gates open and passengers board the plane
+	line.remove();
+	line.remove();
+}

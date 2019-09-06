@@ -1,0 +1,45 @@
+package examples;
+
+/**
+ * This class represents different shapes of a particular shape.
+ * @author Kjohnson & Jamal
+ */
+public class GroupOfShapes {
+	private Shape[] shapeList;
+	
+	/**
+	 * Constructor: sets up the list of shapes. 
+	 */
+	public GroupOfShapes(){
+		shapeList = new Shape[6];
+		initializeShapes();
+	}
+	
+	/**
+	 * Initialize specific shape with specified value for each item of list.
+	 */
+	public void initializeShapes(){
+		shapeList[0] = new Rectangle(3,4);
+		shapeList[1] = new Circle(12);
+		shapeList[2] = new Rectangle(6,15);
+		shapeList[3] = new Square(6);
+		shapeList[4] = new Square(8);
+		shapeList[5] = new Circle(3);
+	}
+	
+	public void computeAreas(){
+		for (int i=0;i<shapeList.length;i++){
+			shapeList[i].area = shapeList[i].calculateArea();
+		}
+	}
+	public void computeCirumferences(){
+		for (int i=0;i<shapeList.length;i++){
+			shapeList[i].circumference = shapeList[i].calculateCircumference();
+		}
+	}
+	public void printShapeInfo(){
+		for (int i=0;i<shapeList.length;i++){
+			System.out.println(shapeList[i]);
+		}
+	}
+}

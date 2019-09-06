@@ -1,0 +1,15 @@
+package lectureCode;
+
+import java.util.LinkedList;
+import java.util.Queue;
+
+public class QueueExample {
+	public static void main(String[] args) {
+		Queue<Integer> line = new LinkedList<Integer>();
+		line.add(1);
+		line.add(9);
+		line.add(13);
+		line.remove();
+		line.remove();
+	}
+}

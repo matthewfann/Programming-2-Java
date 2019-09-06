@@ -1,0 +1,8 @@
+package exercises;
+
+public class Flight {
+	private String name;
+	private int flightNumber;
+	private String originCity;
+	private String destinationCity;
+}

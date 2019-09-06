@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="WorkbenchPreferenceDialogSettings">
+		<item key="DIALOG_X_ORIGIN" value="136"/>
+		<item key="DIALOG_Y_ORIGIN" value="43"/>
+	</section>
+	<section name="org.eclipse.ui.internal.QuickAccess">
+		<item key="dialogHeight" value="-1"/>
+		<item key="dialogWidth" value="-1"/>
+		<list key="textEntries">
+		</list>
+		<list key="orderedElements">
+		</list>
+		<list key="orderedProviders">
+		</list>
+		<list key="textArray">
+		</list>
+	</section>
+	<section name="ImportExportAction">
+		<item key="ImportExportPage.STORE_SELECTED_EXPORT_WIZARD_ID" value="org.eclipse.ui.wizards.export.ZipFile"/>
+		<item key="ImportExportPage.STORE_SELECTED_IMPORT_WIZARD_ID" value="org.eclipse.ui.wizards.import.ExternalProject"/>
+		<list key="ImportExportPage.STORE_EXPANDED_IMPORT_CATEGORIES">
+			<item value="org.eclipse.ui.Basic"/>
+		</list>
+		<list key="ImportExportPage.STORE_EXPANDED_EXPORT_CATEGORIES">
+			<item value="org.eclipse.ui.Basic"/>
+		</list>
+	</section>
+	<section name="ZipFileExportWizard">
+		<item key="WizardZipFileResourceExportPage1.STORE_COMPRESS_CONTENTS_ID" value="true"/>
+		<item key="WizardZipFileResourceExportPage1.STORE_CREATE_STRUCTURE_ID" value="true"/>
+		<list key="WizardZipFileResourceExportPage1.STORE_DESTINATION_NAMES_ID">
+			<item value="/Users/kjohnson/Desktop/Programming 2/2018/Programming 2 2018 S1/New P2 Materials/Course Materials/Lab/Exercises/Week12/Week11Solns.zip"/>
+			<item value="/Users/kjohnson/Desktop/Programming 2/2018/Programming 2 2018 S1/New P2 Materials/Course Materials/Lab/Exercises/Week08/Week10Solutions.zip"/>
+			<item value="/Users/kjohnson/Desktop/Programming 2/2018/Programming 2 2018 S1/New P2 Materials/Course Materials/Lab/Exercises/Week08/Week10Project.zip"/>
+			<item value="/Users/kjohnson/Desktop/Programming 2/2018/Programming 2 2018 S1/New P2 Materials/Course Materials/Lab/GUI Week 9/WK09Project.zip"/>
+			<item value="/Users/kjohnson/Desktop/Programming 2/2018/Programming 2 2018 S1/New P2 Materials/Course Materials/Lab/GUI Week 9/WK09Solutions.zip"/>
+			<item value="/Users/kjohnson/Desktop/Programming 2/2018/Programming 2 2018 S1/New P2 Materials/Course Materials/Lab/GUI Week 8/WK08Solutions.zip"/>
+			<item value="/Users/kjohnson/Desktop/Programming 2/2018/Programming 2 2018 S1/New P2 Materials/Course Materials/Lab/GUI Week 8/WK08Project.zip"/>
+			<item value="/Users/kjohnson/Desktop/Programming 2/2018/Programming 2 2018 S1/New P2 Materials/Course Materials/Lab/Exercises/Week08/WK07Solutions.zip"/>
+			<item value="/Users/kjohnson/Desktop/Programming 2/2018/Programming 2 2018 S1/New P2 Materials/Course Materials/Lab/Exercises/Week07 inheritance/Week07.zip"/>
+			<item value="C:\Users\szolhava\Google Drive\P2 Materials\Semester 1_2018\From Jamal\Course Materials\Lab\Solutions\Week05\WK05Solutions.zip"/>
+			<item value="C:\Users\szolhava\Google Drive\P2 Materials\Semester 1_2018\From Jamal\Course Materials\Lab\Solutions\Week02\WK03Solutions.zip"/>
+			<item value="C:\Users\szolhava\Google Drive\P2 Materials\Semester 1_2018\From Jamal\Course Materials\Lab\Solutions\Week02\WK02Solutions.zip"/>
+			<item value="C:\Users\szolhava\Google Drive\P2 Materials\Semester 1_2018\From Jamal\Course Materials\Lab\Solutions\Week01\WK01Solutions.zip"/>
+			<item value="C:\Users\szolhava\Google Drive\P2 Materials\Semester 1_2018\From Jamal\Course Materials\Lab\Examples\Week03\WK03Examples.zip"/>
+			<item value="C:\Users\szolhava\Google Drive\P2 Materials\Semester 1_2018\From Jamal\Course Materials\Lab\Examples\Week12\WK12Examples.zip"/>
+			<item value="C:\Users\szolhava\Google Drive\P2 Materials\Semester 1_2018\From Jamal\Course Materials\Lab\Examples\Week11\WK11Examples.zip"/>
+			<item value="C:\Users\szolhava\Google Drive\P2 Materials\Semester 1_2018\From Jamal\Course Materials\Lab\Examples\Week10\WK10Examples.zip"/>
+			<item value="C:\Users\szolhava\Google Drive\P2 Materials\Semester 1_2018\From Jamal\Course Materials\Lab\Examples\Week09\WK09Examples.zip"/>
+			<item value="C:\Users\szolhava\Google Drive\P2 Materials\Semester 1_2018\From Jamal\Course Materials\Lab\Examples\Week08\WK08Examples.zip"/>
+			<item value="C:\Users\szolhava\Google Drive\P2 Materials\Semester 1_2018\From Jamal\Course Materials\Lab\Examples\Week07\WK07Examples.zip"/>
+		</list>
+	</section>
+</section>
